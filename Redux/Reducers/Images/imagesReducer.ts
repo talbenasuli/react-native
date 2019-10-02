@@ -1,5 +1,5 @@
-import {ImageItem} from "../ImageItem";
-import {ImagesActions} from "./ImagesActionsTypes";
+import {ImageItem} from "../../Model/ImageItem";
+import {ImagesActions} from "../Actions/Images/ImagesActionsTypes";
 
 export interface ImagesReducerState {
     allImages: ImageItem[]

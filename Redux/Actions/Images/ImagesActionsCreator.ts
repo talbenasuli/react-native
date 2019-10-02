@@ -1,6 +1,6 @@
 import {ThunkDispatch} from "redux-thunk";
 import {AnyAction} from "redux";
-import {ImageItem} from "../ImageItem";
+import {ImageItem} from "../../Model/ImageItem";
 
 export const getImages = (fromIndex: number, numberOfImagesToDisplay: number) => {
     if(numberOfImagesToDisplay < 0) {

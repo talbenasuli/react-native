@@ -1,4 +1,4 @@
-import {ImageItem} from "../ImageItem";
+import {ImageItem} from "../../Model/ImageItem";
 
 interface UpdateImagesAction {
     type: 'updateImages'
